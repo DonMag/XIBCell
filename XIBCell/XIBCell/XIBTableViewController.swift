@@ -38,8 +38,7 @@ class XIBTableViewController: UITableViewController {
         super.viewDidLoad()
 
 		tableView.register(UINib(nibName: "XIBCell", bundle: nil), forCellReuseIdentifier: "XIBCell")
-		
-		tableView.rowHeight = UITableViewAutomaticDimension
+
 		tableView.estimatedRowHeight = 300
 	
 		// show "Done Editing" button in NavBar
